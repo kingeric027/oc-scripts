@@ -1,0 +1,51 @@
+{
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "globals": {
+      "AWS": true,
+      "appConfig": true,
+      "element": true,
+      "by": true,
+      "angular": true,
+      "inject": true,
+      "_": true,
+      "$": true,
+      "Sentry": true
+    },
+    "env": {
+      "jasmine": true,
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "quotes": ["warn", "single"],
+      "eqeqeq": ["warn", "smart"],
+      "no-inner-declarations": "off",
+      "comma-spacing": ["warn"],
+      "comma-style": ["error", "last"],
+      "func-call-spacing": ["warn", "never"],
+      "semi": ["warn", "always"],
+      "no-console": "warn",
+      "no-debugger": "off",
+      "no-unused-vars": [
+        "warn",
+        {
+          "args": "all"
+        }
+      ],
+      "arrow-spacing": "warn",
+      "no-var": "warn",
+      "object-shorthand": "off",
+      "prefer-arrow-callback": "warn",
+      "prefer-destructuring": "off",
+      "prefer-template": "warn",
+      "no-useless-escape": "off"
+    }
+  }
+  

@@ -1,0 +1,10 @@
+{
+    "prettier.requireConfig": true,
+    "beautify.ignore": "**/*.{js,ts,json,css,less}",
+    "editor.formatOnSave": true,
+    "eslint.autoFixOnSave": true,
+    "[less]": {
+      "editor.formatOnSave": false
+    },
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+  }
