@@ -9,7 +9,7 @@ import { keyBy } from 'lodash';
  */
 
 async function run() {
-  const creds = config.prod.dfsi;
+  const creds = config.test.dfsi;
   const sdk = await helpers.ocClient(creds.clientID, creds.clientSecret);
 
   const partsRefProducts = await helpers.listAll<Product>(sdk.Products.List, {

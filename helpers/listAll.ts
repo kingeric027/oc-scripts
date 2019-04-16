@@ -19,7 +19,7 @@ export interface ListPage<T> {
  * listAll(OrderCloudSDk.Products.List, {filters: {'xp.Color': 'Red'}});
  */
 export async function listAll<T = any>(
-  listFn: () => Promise<ListPage<T>>,
+  listFn: (args?: any) => Promise<ListPage<T>>,
   ...listArgs
 ): Promise<T[]> {
   // get or create filters obj if it doesnt exist
