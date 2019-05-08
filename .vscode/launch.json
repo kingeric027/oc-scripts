@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "name": "dfsi - parts report",
             "type": "node",
@@ -15,6 +16,16 @@
             "cwd": "${workspaceRoot}",
             "protocol": "inspector"
         },
+        {
+            "name": "aveda - collateral",
+            "type": "node",
+            "request": "launch",
+            "args": ["${workspaceRoot}/src/aveda-migrate-collateral.ts"],
+            "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+            "sourceMaps": true,
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector"
+        }
         {
             "name": "Current TS File",
             "type": "node",
