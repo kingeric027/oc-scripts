@@ -19,7 +19,7 @@ export interface ListPage<T> {
  * listAll(OrderCloudSDk.Products.List, {filters: {'xp.Color': 'Red'}});
  */
 export async function listAll<T = any>(
-  listFn: (args?: any) => Promise<ListPage<T>>,
+  listFn: (...args: any) => Promise<ListPage<T>>,
   ...listArgs
 ): Promise<T[]> {
   // get or create filters obj if it doesnt exist
@@ -29,16 +29,17 @@ export async function listAll<T = any>(
   // set page and pageSize
   filtersObj.page = 1;
   filtersObj.pageSize = 100;
-  listArgs.push(filtersObj);
 
-  const result1 = await listFn.apply(this, listArgs as []);
+  const result1 = await listFn.apply(this, [...listArgs, filtersObj]);
   const additionalPages = getAdditionalPages(result1.Meta!);
 
   const results = await batchOperations<number, ListPage<T>>(
     additionalPages,
     async (page: number) => {
-      filtersObj.page = page;
-      return await listFn.apply(this, listArgs as []);
+      return await listFn.apply(this, [
+        ...listArgs,
+        { ...filtersObj, page: page },
+      ]);
     }
   );
 
