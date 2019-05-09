@@ -34,8 +34,8 @@ async function run() {
     auth: { masterKey: creds.cosmosKey },
   });
   const cosmosContainer = cosmos.database('aveda-test').container('promotions');
-  //await updateProducts();
-  //await updateSalons();
+  await updateProducts();
+  await updateSalons();
   await updatePromos();
 
   async function updateProducts() {
@@ -46,6 +46,8 @@ async function run() {
       x => x.xp == undefined || x.xp.IsCollateralProduct == undefined
     );
     helpers.log(products);
+    let progress = 0;
+    let total = products.length;
     await helpers.batchOperations(products, async function singleOperation(
       product: Product
     ): Promise<any> {
@@ -53,6 +55,8 @@ async function run() {
         const xp = product.xp || {};
         xp.IsCollateralProduct = false;
         await sdk.Products.Patch(product.ID!, { xp });
+        progress++;
+        console.log(`${progress} of ${total} promotions done`);
       } catch (e) {
         errors[product.ID!] = e;
       }
@@ -79,7 +83,8 @@ async function run() {
         x.xp.CollateralClassificationID == undefined
     );
     helpers.log(salons);
-
+    let progress = 0;
+    let total = salons.length;
     await helpers.batchOperations(salons, async function singleOperation(
       salon: UserGroup
     ): Promise<any> {
@@ -91,6 +96,8 @@ async function run() {
         } else {
           xp.CollateralClassificationID = classID;
           await sdk.UserGroups.Patch(buyerID!, salon.ID!, { xp });
+          progress++;
+          console.log(`${progress} of ${total} promotions done`);
         }
       } catch (e) {
         errors[salon.ID!] = e;
@@ -100,15 +107,32 @@ async function run() {
   }
 
   async function updatePromos() {
-    const promos = await cosmosContainer.items
+    let errors = {};
+
+    let promotions = await cosmosContainer.items
       .query('SELECT * FROM root')
       .toArray();
-    if (!promos.result) return;
-    helpers.log(promos);
-    promos.result.forEach(async (promo, i) => {
-      promo.HasCollateralBundle = promo.HasCollateralBundle || false;
-      await cosmosContainer.item(promo.id).replace(promo);
-    });
+    if (!promotions.result) return;
+    const promosToUpdate = promotions.result.filter(
+      x => x.HasCollateralBundle == undefined
+    );
+    helpers.log(promosToUpdate);
+    let progress = 0;
+    let total = promosToUpdate.length;
+    for (let i = 0; i < total; i++) {
+      let promo = promosToUpdate[i];
+      promo.HasCollateralBundle = false;
+      try {
+        await cosmosContainer.item(promo.id).replace(promo);
+        // Slowing things down prevents a 429 "Request rate is large" exception from Azure
+        await new Promise(r => setTimeout(r, 100));
+        progress++;
+        console.log(`${progress} of ${total} promotions done`);
+      } catch (e) {
+        errors[promo.id] = e;
+      }
+    }
+    helpers.log(errors);
   }
 }
 
