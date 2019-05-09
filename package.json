@@ -11,8 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@azure/cosmos": "^2.1.5",
     "lodash": "^4.17.11",
-    "ordercloud-javascript-sdk": "^3.1.2"
+    "ordercloud-javascript-sdk": "^3.1.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.123",
