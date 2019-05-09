@@ -33,7 +33,9 @@ async function run() {
     endpoint: creds.cosmosEndpoint!,
     auth: { masterKey: creds.cosmosKey },
   });
-  const cosmosContainer = cosmos.database('aveda-test').container('promotions');
+  const cosmosContainer = cosmos
+    .database(config.test.aveda.cosmosDb!)
+    .container('promotions');
   await updateProducts();
   await updateSalons();
   await updatePromos();
