@@ -63,7 +63,7 @@ async function run() {
         errors[product.ID!] = e;
       }
     });
-    helpers.log(errors);
+    helpers.log(errors, 'collateral-products');
   }
 
   async function updateSalons() {
@@ -105,7 +105,7 @@ async function run() {
         errors[salon.ID!] = e;
       }
     });
-    helpers.log(errors);
+    helpers.log(errors, 'collateral-salons');
   }
 
   async function updatePromos() {
@@ -134,7 +134,7 @@ async function run() {
         errors[promo.id] = e;
       }
     }
-    helpers.log(errors);
+    helpers.log(errors, 'collateral-promos');
   }
 }
 
