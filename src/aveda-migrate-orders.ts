@@ -28,47 +28,47 @@ async function run() {
       },
     }
   );
-  var errors = {};
-  var count = 0;
-  var patchRequests = {};
+  let errors = {};
+  let count = 0;
+  let patchRequests = {};
   await helpers.batchOperations(
     submitted.concat(awaitingApproval),
     async function singleOperation(order: Order): Promise<any> {
       try {
-        var lineItemList = await helpers.listAll<LineItem>(
+        let lineItemList = await helpers.listAll<LineItem>(
           sdk.LineItems.List,
           'incoming',
           order.ID
         );
-        var promoLIs = lineItemList.filter(li => li.xp.PromotionID);
-        var promoRequests = compact(
+        let promoLIs = lineItemList.filter(li => li.xp.PromotionID);
+        let promoRequests = compact(
           uniq(promoLIs.map(li => li.xp.PromotionID))
         ).map(pID => getPromotion(pID, environment));
         count++;
-        var promos = await Promise.all(promoRequests);
-        var promoDictionary = keyBy(promos, p => p.id);
-        var linesGroupedByPromos = groupBy(promoLIs, li => li.xp.PromotionID);
+        let promos = await Promise.all(promoRequests);
+        let promoDictionary = keyBy(promos, p => p.id);
+        let linesGroupedByPromos = groupBy(promoLIs, li => li.xp.PromotionID);
 
-        var result: any[] = [];
+        let result: any[] = [];
         forEach(linesGroupedByPromos, (lineItems: any, promoID) => {
-          var promo = promoDictionary[promoID];
+          let promo = promoDictionary[promoID];
           if (!promo || !promo.PromoSlots) {
             return console.log(`Promotion not found: ${promoID}`);
           }
           if (!promo.PromoSlots) {
             return console.log(`Promo ${promoID} does not have a promoslot`);
           }
-          var product = promo.PromoSlots[0].SelectedProducts[0];
-          var linesWithProduct: LineItem[] = lineItems.filter(
+          let product = promo.PromoSlots[0].SelectedProducts[0];
+          let linesWithProduct: LineItem[] = lineItems.filter(
             li => li.ProductID === product.ID
           );
 
-          var qtyLinesWithProduct = linesWithProduct
+          let qtyLinesWithProduct = linesWithProduct
             .map(li => li.Quantity!)
             .reduce((a, b) => a + b, 0);
 
-          var qtyInPromo = Math.floor(qtyLinesWithProduct / product.Quantity);
-          var total = lineItems
+          let qtyInPromo = Math.floor(qtyLinesWithProduct / product.Quantity);
+          let total = lineItems
             .map(li => (order.IsSubmitted ? li.UnitPrice : li.LineTotal))
             .reduce((a, b) => a + b, 0);
 
@@ -102,7 +102,7 @@ async function getPromotion(promotionID: string, environment: string) {
       : 'http://localhost:3050/api/azure';
 
   try {
-    var result = await request({
+    let result = await request({
       method: 'GET',
       uri: `${integrationurl}/promotions/${promotionID}`,
       json: true,

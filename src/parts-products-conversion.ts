@@ -15,7 +15,7 @@ async function run() {
     filters: { 'xp.PartsRefNumber': '*' },
   });
 
-  var errors = {};
+  let errors = {};
   await helpers.batchOperations(products, async function singleOperation(
     product: Product
   ): Promise<any> {

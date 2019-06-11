@@ -13,16 +13,16 @@ async function run() {
     filters: { Status: 'AwaitingApproval' },
   });
 
-  var errors = {};
+  let errors = {};
   await helpers.batchOperations(orders, async function singleOperation(
     order: Order
   ): Promise<any> {
     try {
-      var LineItemList = await sdk.LineItems.List('incoming', order.ID!, {
+      let LineItemList = await sdk.LineItems.List('incoming', order.ID!, {
         pageSize: 1,
       });
       if (LineItemList.Items!.length) {
-        var ShippingAddress = LineItemList.Items![0].ShippingAddress;
+        let ShippingAddress = LineItemList.Items![0].ShippingAddress;
         let _ShippingAddressName;
         if (ShippingAddress && ShippingAddress.AddressName) {
           _ShippingAddressName = ShippingAddress.AddressName;

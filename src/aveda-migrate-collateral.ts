@@ -10,7 +10,7 @@ import { CosmosClient } from '@azure/cosmos';
  *  Add Promotion.HasCollateralBundle = false
  */
 
-let classificationsMap = {
+const classificationsMap = {
   '20208': '20208',
   '20401': '20401',
   'Company Owned Institute': 'company-owned-institute',
@@ -41,15 +41,15 @@ async function run() {
   await updatePromos();
 
   async function updateProducts() {
-    let errors = {};
+    const errors = {};
 
     let products = await helpers.listAll<Product>(sdk.Products.List);
     products = products.filter(
-      x => x.xp == undefined || x.xp.IsCollateralProduct == undefined
+      x => x.xp === undefined || x.xp.IsCollateralProduct === undefined
     );
     helpers.log(products);
     let progress = 0;
-    let total = products.length;
+    const total = products.length;
     await helpers.batchOperations(products, async function singleOperation(
       product: Product
     ): Promise<any> {
@@ -67,7 +67,7 @@ async function run() {
   }
 
   async function updateSalons() {
-    let errors = {};
+    const errors = {};
 
     const buyers = await sdk.Buyers.List();
     const buyerID = buyers.Items![0].ID;
@@ -82,11 +82,11 @@ async function run() {
       x =>
         x.xp &&
         x.xp.Classification && // TODO - what about the 523 salons with no Classification?
-        x.xp.CollateralClassificationID == undefined
+        x.xp.CollateralClassificationID === undefined
     );
     helpers.log(salons);
     let progress = 0;
-    let total = salons.length;
+    const total = salons.length;
     await helpers.batchOperations(salons, async function singleOperation(
       salon: UserGroup
     ): Promise<any> {
@@ -109,20 +109,22 @@ async function run() {
   }
 
   async function updatePromos() {
-    let errors = {};
+    const errors = {};
 
-    let promotions = await cosmosContainer.items
+    const promotions = await cosmosContainer.items
       .query('SELECT * FROM root')
       .toArray();
-    if (!promotions.result) return;
+    if (!promotions.result) {
+      return;
+    }
     const promosToUpdate = promotions.result.filter(
-      x => x.HasCollateralBundle == undefined
+      x => x.HasCollateralBundle === undefined
     );
     helpers.log(promosToUpdate);
     let progress = 0;
-    let total = promosToUpdate.length;
+    const total = promosToUpdate.length;
     for (let i = 0; i < total; i++) {
-      let promo = promosToUpdate[i];
+      const promo = promosToUpdate[i];
       promo.HasCollateralBundle = false;
       try {
         await cosmosContainer.item(promo.id).replace(promo);

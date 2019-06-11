@@ -12,9 +12,9 @@ async function run() {
   const sdk = await helpers.ocClient(creds.clientID, creds.clientSecret);
 
   const adminUsers = await helpers.listAll<User>(sdk.AdminUsers.List);
-  var total = adminUsers.length;
+  const total = adminUsers.length;
   let progress = 0;
-  let errors = {};
+  const errors = {};
   await helpers.batchOperations(adminUsers, async function singleOperation(
     user: User
   ) {
