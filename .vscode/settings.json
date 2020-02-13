@@ -1,6 +1,5 @@
 {
   "prettier.requireConfig": true,
-  "prettier.tslintIntegration": true,
   "beautify.ignore": "**/*.{js,ts,json,css,less}",
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
@@ -8,4 +7,7 @@
     "editor.formatOnSave": false
   },
   "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 }

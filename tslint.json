@@ -4,12 +4,16 @@
     "tslint-config-prettier"
   ],
   "rules": {
-    "arrow-parens": [true, "ban-single-arg-parens"],
+    "arrow-parens": [
+      true,
+      "ban-single-arg-parens"
+    ],
     "interface-name": false,
     "object-literal-sort-keys": false,
     "jsx-boolean-value": false,
     "ordered-imports": false,
     "jsx-no-lambda": false,
-    "prefer-const": false
+    "prefer-const": false,
+    "no-var-requires": false
   }
 }

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "resolveJsonModule": true,
     "strict": true,
     "target": "es5",
     "lib": ["es5", "dom", "dom.iterable", "es2017"],

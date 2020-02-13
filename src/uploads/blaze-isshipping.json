@@ -1,0 +1,2597 @@
+﻿[
+  {
+    "UserGroupID": "BillToUG_deep34",
+    "AddressID": "T5373687-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_deep34",
+    "AddressID": "T5373689-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jkovacs",
+    "AddressID": "T5371735-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jkovacs",
+    "AddressID": "T5373531-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_joel",
+    "AddressID": "T5373589-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_joel",
+    "AddressID": "T5381193-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jay",
+    "AddressID": "T5373458-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jay",
+    "AddressID": "T5373565-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5373563-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5373648-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5373649-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5395744-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5395745-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5400817-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tomdakotaslice",
+    "AddressID": "T5373538-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tomdakotaslice",
+    "AddressID": "T5413582-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_matt",
+    "AddressID": "T5373440-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_matt",
+    "AddressID": "T5373442-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_matt",
+    "AddressID": "T5373444-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_matt",
+    "AddressID": "T5373445-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_matt",
+    "AddressID": "T5378699-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_matt",
+    "AddressID": "T5390635-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_matt",
+    "AddressID": "T5400092-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_matt",
+    "AddressID": "T5407719-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kaggarwal",
+    "AddressID": "T5373597-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kaggarwal",
+    "AddressID": "T5373601-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blairwalker",
+    "AddressID": "T5373573-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blairwalker",
+    "AddressID": "T5373577-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mjolmos",
+    "AddressID": "T5373539-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mjolmos",
+    "AddressID": "T5373541-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mjolmos",
+    "AddressID": "T5373544-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mjolmos",
+    "AddressID": "T5373546-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mjolmos",
+    "AddressID": "T5373547-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mjolmos",
+    "AddressID": "T5373555-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mjolmos",
+    "AddressID": "T5375669-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mjolmos",
+    "AddressID": "T5376564-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_timmccormack41",
+    "AddressID": "T5373513-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_timmccormack41",
+    "AddressID": "T5373526-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_timmccormack41",
+    "AddressID": "T5373528-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rob",
+    "AddressID": "T5373513-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rob",
+    "AddressID": "T5373526-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rob",
+    "AddressID": "T5373528-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rob",
+    "AddressID": "T5376564-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rob",
+    "AddressID": "T5380824-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rob",
+    "AddressID": "T5405926-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_1123salinas",
+    "AddressID": "T5376563-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_1123salinas",
+    "AddressID": "T5376564-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_emanginelli",
+    "AddressID": "T5373618-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_emanginelli",
+    "AddressID": "T5373619-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_emanginelli",
+    "AddressID": "T5382807-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_emanginelli",
+    "AddressID": "T5398703-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_1138ontario",
+    "AddressID": "T5376565-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_1138ontario",
+    "AddressID": "T5376566-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_darven",
+    "AddressID": "T5373579-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_darven",
+    "AddressID": "T5373581-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_darven",
+    "AddressID": "T5376560-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acaron",
+    "AddressID": "T5376569-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acaron",
+    "AddressID": "T5390634-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acaron",
+    "AddressID": "T5393361-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acaron",
+    "AddressID": "T5393362-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nafta2000llc",
+    "AddressID": "T5373603-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nafta2000llc",
+    "AddressID": "T5373604-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nafta2000llc",
+    "AddressID": "T5373610-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nafta2000llc",
+    "AddressID": "T5373612-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_1158lansing",
+    "AddressID": "T5376566-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_1158lansing",
+    "AddressID": "T5376567-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_1163monroeville",
+    "AddressID": "T5376567-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_1163monroeville",
+    "AddressID": "T5376568-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5373648-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5373649-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5395744-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5395745-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5403279-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mike",
+    "AddressID": "T5405434-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5371909-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373463-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373467-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373468-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373469-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373471-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373473-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373482-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373485-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373506-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373507-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373508-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373509-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373510-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373885-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5377653-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5383337-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5401780-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5406798-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5408087-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5412095-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5413610-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Imransahmad",
+    "AddressID": "T5373449-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Imransahmad",
+    "AddressID": "T5373456-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Imransahmad",
+    "AddressID": "T5373457-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_patricia",
+    "AddressID": "T5373459-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_patricia",
+    "AddressID": "T5373461-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_patricia",
+    "AddressID": "T5382892-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_ian",
+    "AddressID": "T5373440-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_ian",
+    "AddressID": "T5373442-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_ian",
+    "AddressID": "T5373444-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_ian",
+    "AddressID": "T5373445-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_ian",
+    "AddressID": "T5373446-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_ian",
+    "AddressID": "T5378697-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_ian",
+    "AddressID": "T5378699-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_ian",
+    "AddressID": "T5390635-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rick",
+    "AddressID": "T5373513-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rick",
+    "AddressID": "T5373526-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rick",
+    "AddressID": "T5373528-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rick",
+    "AddressID": "T5376564-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rick",
+    "AddressID": "T5380824-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rick",
+    "AddressID": "T5405926-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_biethman",
+    "AddressID": "T5373695-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_biethman",
+    "AddressID": "T5395080-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_biethman",
+    "AddressID": "T5398702-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5373678-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5373680-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5373682-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5373683-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5373685-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5376549-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5383800-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5383802-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_corporate",
+    "AddressID": "T5397860-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_briantbooth",
+    "AddressID": "T5371608-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_briantbooth",
+    "AddressID": "T5371609-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_briantbooth",
+    "AddressID": "T5373697-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_briantbooth",
+    "AddressID": "T5384056-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mj",
+    "AddressID": "T5373678-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mj",
+    "AddressID": "T5373685-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mj",
+    "AddressID": "T5383800-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mj",
+    "AddressID": "T5397860-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5373532-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5373652-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5373654-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5373668-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5373669-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5373671-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5376565-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5391400-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5391401-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5394197-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5409972-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5409973-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_waltchristenson",
+    "AddressID": "T5413614-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373604-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373605-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373608-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373609-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373610-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373612-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373672-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373674-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373676-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tom",
+    "AddressID": "T5373677-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373463-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373467-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373468-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373469-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373471-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373473-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373506-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373507-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_acummis",
+    "AddressID": "T5373508-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_eduncan",
+    "AddressID": "T5371761-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_eduncan",
+    "AddressID": "T5373620-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_eduncan",
+    "AddressID": "T5401054-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_eduncan",
+    "AddressID": "T5401057-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_eduncan",
+    "AddressID": "T5401059-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_eduncan",
+    "AddressID": "T5401652-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_elizabeth",
+    "AddressID": "T5370338-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_elizabeth",
+    "AddressID": "T5400946-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_elizabeth",
+    "AddressID": "T5400947-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_elizabeth",
+    "AddressID": "T5400948-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_elizabeth",
+    "AddressID": "T5400995-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_elizabeth",
+    "AddressID": "T5400996-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_elizabeth",
+    "AddressID": "T5400997-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5373486-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5373488-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5373490-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5373492-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5373493-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5373495-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5373496-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5373497-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5376566-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5413557-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5413558-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5413559-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5413560-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5413561-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5413563-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5413564-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rfauble",
+    "AddressID": "T5413566-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mforte",
+    "AddressID": "T5373636-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mforte",
+    "AddressID": "T5373640-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mforte",
+    "AddressID": "T5373642-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mforte",
+    "AddressID": "T5373644-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mforte",
+    "AddressID": "T5404907-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mforte",
+    "AddressID": "T5404908-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373604-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373605-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373608-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373609-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373612-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373672-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373674-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373676-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_sandra",
+    "AddressID": "T5373677-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_brettgoodrich",
+    "AddressID": "T5362387-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_brettgoodrich",
+    "AddressID": "T5371060-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_brettgoodrich",
+    "AddressID": "T5371061-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_brettgoodrich",
+    "AddressID": "T5372583-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_brettgoodrich",
+    "AddressID": "T5373499-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blazinblue",
+    "AddressID": "T5373511-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blazinblue",
+    "AddressID": "T5373512-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gregh",
+    "AddressID": "T5373678-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gregh",
+    "AddressID": "T5373680-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gregh",
+    "AddressID": "T5373682-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gregh",
+    "AddressID": "T5373683-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gregh",
+    "AddressID": "T5373685-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gregh",
+    "AddressID": "T5376549-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5373457-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5373458-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5373563-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5373565-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5388056-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5390632-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5390941-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5401406-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mireyahernandez",
+    "AddressID": "T5405008-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_z_irle",
+    "AddressID": "T5371608-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_z_irle",
+    "AddressID": "T5371609-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_z_irle",
+    "AddressID": "T5373697-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_llessing",
+    "AddressID": "T5415204-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_llessing",
+    "AddressID": "T5373613-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_llessing",
+    "AddressID": "T5373615-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_llessing",
+    "AddressID": "T5373616-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_llessing",
+    "AddressID": "T5373618-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_llessing",
+    "AddressID": "T5373619-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_llessing",
+    "AddressID": "T5382807-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mark",
+    "AddressID": "T5373613-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mark",
+    "AddressID": "T5373615-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mark",
+    "AddressID": "T5373616-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mark",
+    "AddressID": "T5373618-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mark",
+    "AddressID": "T5373619-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jerry",
+    "AddressID": "T5373438-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jerry",
+    "AddressID": "T5373441-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jerry",
+    "AddressID": "T5373447-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_juan",
+    "AddressID": "T5362387-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_juan",
+    "AddressID": "T5371060-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_juan",
+    "AddressID": "T5371061-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_juan",
+    "AddressID": "T5372583-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_juan",
+    "AddressID": "T5373499-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_paulm",
+    "AddressID": "T5371607-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_paulm",
+    "AddressID": "T5402899-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_paulm",
+    "AddressID": "T5403955-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_paulm",
+    "AddressID": "T5403958-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_paulm",
+    "AddressID": "T5403961-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_paulm",
+    "AddressID": "T5403962-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_cmcdonald",
+    "AddressID": "T5400798-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_cmcdonald",
+    "AddressID": "T5400800-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_cmcdonald",
+    "AddressID": "T5400801-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_smcdonald",
+    "AddressID": "T5373463-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_smcdonald",
+    "AddressID": "T5373469-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_smcdonald",
+    "AddressID": "T5373471-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_smcdonald",
+    "AddressID": "T5373473-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_smcdonald",
+    "AddressID": "T5373485-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_smcdonald",
+    "AddressID": "T5383337-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_smcdonald",
+    "AddressID": "T5401780-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rmedali",
+    "AddressID": "T5359949-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rmedali",
+    "AddressID": "T5373690-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rmedali",
+    "AddressID": "T5373691-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rmedali",
+    "AddressID": "T5373692-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rmedali",
+    "AddressID": "T5382145-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5373539-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5373541-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5373544-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5373546-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5373547-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5373555-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5375669-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5376564-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5390966-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5390967-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_maty",
+    "AddressID": "T5390971-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JeffMueller",
+    "AddressID": "T5371060-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JeffMueller",
+    "AddressID": "T5371061-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JeffMueller",
+    "AddressID": "T5372583-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JeffMueller",
+    "AddressID": "T5373499-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JeffMueller",
+    "AddressID": "T5373500-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kneyhartblaze",
+    "AddressID": "T5370338-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kneyhartblaze",
+    "AddressID": "T5400946-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kneyhartblaze",
+    "AddressID": "T5400947-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kneyhartblaze",
+    "AddressID": "T5400948-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kneyhartblaze",
+    "AddressID": "T5400995-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kneyhartblaze",
+    "AddressID": "T5400996-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kneyhartblaze",
+    "AddressID": "T5400997-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mniemiec",
+    "AddressID": "T5371909-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mniemiec",
+    "AddressID": "T5373482-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mniemiec",
+    "AddressID": "T5373485-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mniemiec",
+    "AddressID": "T5373509-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mniemiec",
+    "AddressID": "T5373510-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mniemiec",
+    "AddressID": "T5373885-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5371909-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373463-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373467-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373468-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373469-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373471-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373473-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373482-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373485-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373506-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373507-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373508-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373509-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373510-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5373885-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5377653-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5383337-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5398048-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5401780-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dobrien",
+    "AddressID": "T5406798-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jair",
+    "AddressID": "T5414211-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jair",
+    "AddressID": "T5370899-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jair",
+    "AddressID": "T5373459-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jair",
+    "AddressID": "T5373461-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jair",
+    "AddressID": "T5382892-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jair",
+    "AddressID": "T5401323-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jair",
+    "AddressID": "T5411100-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_florpalacios",
+    "AddressID": "T5362387-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_florpalacios",
+    "AddressID": "T5371060-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_florpalacios",
+    "AddressID": "T5371061-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_florpalacios",
+    "AddressID": "T5372583-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_florpalacios",
+    "AddressID": "T5373499-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_florpalacios",
+    "AddressID": "T5373500-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_cpaphites",
+    "AddressID": "T5373530-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_cpaphites",
+    "AddressID": "T5411099-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwpars",
+    "AddressID": "T5390968-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwpars",
+    "AddressID": "T5390969-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwpars",
+    "AddressID": "T5390970-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373436-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373438-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373440-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373441-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373442-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373444-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373445-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373446-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_amit",
+    "AddressID": "T5373447-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JBrann",
+    "AddressID": "T5373506-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JBrann",
+    "AddressID": "T5373507-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JBrann",
+    "AddressID": "T5373508-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JBrann",
+    "AddressID": "T5373509-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JBrann",
+    "AddressID": "T5373510-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JBrann",
+    "AddressID": "T5406798-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JBrann",
+    "AddressID": "T5408087-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JBrann",
+    "AddressID": "T5412095-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jeremy",
+    "AddressID": "T5414211-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jeremy",
+    "AddressID": "T5370899-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jeremy",
+    "AddressID": "T5373459-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jeremy",
+    "AddressID": "T5373461-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jeremy",
+    "AddressID": "T5382892-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jeremy",
+    "AddressID": "T5401323-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jeremy",
+    "AddressID": "T5411100-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5373678-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5373680-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5373682-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5373683-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5373685-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5376549-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5376568-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5383800-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5383802-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5396392-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5397860-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_calvin",
+    "AddressID": "T5405908-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mquintanillafgq",
+    "AddressID": "T5395744-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mquintanillafgq",
+    "AddressID": "T5395745-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mquintanillafgq",
+    "AddressID": "T5403279-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blazepizzaoc",
+    "AddressID": "T5373566-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blazepizzaoc",
+    "AddressID": "T5373568-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blazepizzaoc",
+    "AddressID": "T5373570-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mikeblazepizza",
+    "AddressID": "T5373511-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mikeblazepizza",
+    "AddressID": "T5373512-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_mikeblazepizza",
+    "AddressID": "T5378282-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jroutsis",
+    "AddressID": "T5396825-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jroutsis",
+    "AddressID": "T5401435-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_lruggles",
+    "AddressID": "T5373624-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_lruggles",
+    "AddressID": "T5373630-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_lruggles",
+    "AddressID": "T5376556-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_lruggles",
+    "AddressID": "T5396199-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_lruggles",
+    "AddressID": "T5396201-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_lruggles",
+    "AddressID": "T5404630-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_lruggles",
+    "AddressID": "T5407995-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jschweiger",
+    "AddressID": "T5373469-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jschweiger",
+    "AddressID": "T5377653-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373603-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373604-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373605-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373608-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373609-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373610-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373612-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373672-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373674-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373676-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_kevin",
+    "AddressID": "T5373677-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_psero931",
+    "AddressID": "T5376567-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_psero931",
+    "AddressID": "T5401441-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_psero931",
+    "AddressID": "T5401897-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_psero931",
+    "AddressID": "T5410905-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_psero931",
+    "AddressID": "T5410906-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_psero931",
+    "AddressID": "T5410907-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jshaw",
+    "AddressID": "T5371909-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jshaw",
+    "AddressID": "T5373467-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jshaw",
+    "AddressID": "T5373468-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jshaw",
+    "AddressID": "T5373482-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jshaw",
+    "AddressID": "T5373885-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jshaw",
+    "AddressID": "T5377653-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jshaw",
+    "AddressID": "T5398048-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dsherer",
+    "AddressID": "T5373627-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dsherer",
+    "AddressID": "T5373633-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dsherer",
+    "AddressID": "T5373634-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dsherer",
+    "AddressID": "T5373635-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dsherer",
+    "AddressID": "T5376556-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dsherer",
+    "AddressID": "T5383416-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_dsherer",
+    "AddressID": "T5411527-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gshute",
+    "AddressID": "T5371607-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gshute",
+    "AddressID": "T5402899-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gshute",
+    "AddressID": "T5403955-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gshute",
+    "AddressID": "T5403958-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gshute",
+    "AddressID": "T5403961-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_gshute",
+    "AddressID": "T5403962-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jsierrapr",
+    "AddressID": "T5373534-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jsierrapr",
+    "AddressID": "T5373535-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jsierrapr",
+    "AddressID": "T5403767-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jsierrapr",
+    "AddressID": "T5403768-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jsierrapr",
+    "AddressID": "T5406082-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_pawan",
+    "AddressID": "T5414211-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_pawan",
+    "AddressID": "T5370899-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_pawan",
+    "AddressID": "T5373459-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_pawan",
+    "AddressID": "T5373461-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_pawan",
+    "AddressID": "T5382892-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_pawan",
+    "AddressID": "T5401323-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_pawan",
+    "AddressID": "T5411100-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_asonenshein",
+    "AddressID": "T5373485-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_asonenshein",
+    "AddressID": "T5383337-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_simplyinnovate",
+    "AddressID": "T5373652-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_simplyinnovate",
+    "AddressID": "T5373654-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_simplyinnovate",
+    "AddressID": "T5373668-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_simplyinnovate",
+    "AddressID": "T5373669-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_simplyinnovate",
+    "AddressID": "T5373671-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_simplyinnovate",
+    "AddressID": "T5376566-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JaredTaylor",
+    "AddressID": "T5373581-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JaredTaylor",
+    "AddressID": "T5376560-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JaredTaylor",
+    "AddressID": "T5383380-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_JaredTaylor",
+    "AddressID": "T5383381-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nncytrjll",
+    "AddressID": "T5373566-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nncytrjll",
+    "AddressID": "T5373568-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nncytrjll",
+    "AddressID": "T5373570-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nncytrjll",
+    "AddressID": "T5394217-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_nncytrjll",
+    "AddressID": "T5398701-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5373438-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5373440-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5373441-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5373442-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5373444-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5373445-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5373446-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5373447-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5378697-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jignesh",
+    "AddressID": "T5378699-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tiffany",
+    "AddressID": "T5373499-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_tiffany",
+    "AddressID": "T5373500-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5371909-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373463-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373467-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373468-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373469-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373471-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373473-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373482-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373485-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373506-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373507-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373508-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373509-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373510-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5373885-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5377653-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5383337-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5398048-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5401780-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5406798-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_jvelasquez",
+    "AddressID": "T5408087-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Edgarvilla",
+    "AddressID": "T5371060-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Edgarvilla",
+    "AddressID": "T5371061-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Edgarvilla",
+    "AddressID": "T5372583-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Edgarvilla",
+    "AddressID": "T5373499-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Edgarvilla",
+    "AddressID": "T5373500-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_Edgarvilla",
+    "AddressID": "T5373651-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blancasnow",
+    "AddressID": "T5359949-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blancasnow",
+    "AddressID": "T5373690-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blancasnow",
+    "AddressID": "T5373691-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blancasnow",
+    "AddressID": "T5373692-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blancasnow",
+    "AddressID": "T5378973-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_blancasnow",
+    "AddressID": "T5382145-0",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwalker",
+    "AddressID": "T5373486-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwalker",
+    "AddressID": "T5373488-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwalker",
+    "AddressID": "T5373490-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwalker",
+    "AddressID": "T5373491-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwalker",
+    "AddressID": "T5373492-1",
+    "IsShipping": "TRUE"
+  },
+  {
+    "UserGroupID": "BillToUG_rwalker",
+    "AddressID": "T5373493-1",
+    "IsShipping": "TRUE"
+  }
+]
