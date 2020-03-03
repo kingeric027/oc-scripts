@@ -2,3 +2,4 @@ node_modules/
 yarn-error.log
 integration-users.config.ts
 logs/
+inputdata/

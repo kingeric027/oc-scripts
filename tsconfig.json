@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "resolveJsonModule": true,
+    "moduleResolution": "node",
     "strict": true,
-    "target": "es5",
+    "target": "es2017",
     "lib": ["es5", "dom", "dom.iterable", "es2017"],
     "jsx": "react",
     "isolatedModules": false,
