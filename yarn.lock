@@ -425,10 +425,10 @@ once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-ordercloud-javascript-sdk@^4.0.0-6:
-  version "4.0.0-6"
-  resolved "https://registry.yarnpkg.com/ordercloud-javascript-sdk/-/ordercloud-javascript-sdk-4.0.0-6.tgz#2e43b7ed3272714ba696378233b5be550527d46f"
-  integrity sha512-lWwQzBDs0LMLgSFPyXXF8QQrDVw9zzEmk8OzG4VIAsJvJOa8WKzTFhy2DLpurVwoV/n+fSreqE8xF6GfGtK6ug==
+ordercloud-javascript-sdk@^4.0.0-9:
+  version "4.0.0-9"
+  resolved "https://registry.yarnpkg.com/ordercloud-javascript-sdk/-/ordercloud-javascript-sdk-4.0.0-9.tgz#936fc492754ee6d2c1ee4cf301b652d15102125c"
+  integrity sha512-EIDvN+TBL7eTyBqsBh/MSPn3I2goBx4x0GY6ljBsuoi4WkrpFzljP56/PDoxc8xd2DBgRYBh5fW4vkcjfxIjSA==
 
 os-name@^3.1.0:
   version "3.1.0"
