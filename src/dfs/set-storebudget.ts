@@ -8,7 +8,7 @@ import * as helpers from '../../helpers';
  *  could have unintended consequences for other uploads that simply need to be strings
  */
 
-const toPatch = require('../uploads/sweetgreen-storebudget.json');
+const toPatch = require('../inputData/sweetgreen-storebudget.json');
 
 interface DfsBudgetRequest {
   buyerID: string;

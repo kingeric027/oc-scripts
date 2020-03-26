@@ -6,7 +6,7 @@ import { User } from 'ordercloud-javascript-sdk';
  *  The update tool cleared out user xp so christie is sending me get the userxp from qa
  */
 
-let toGet = require('../uploads/tundra-restore-userxp.json');
+let toGet = require('../inputData/tundra-restore-userxp.json');
 
 interface Request {
   BuyerID: string;

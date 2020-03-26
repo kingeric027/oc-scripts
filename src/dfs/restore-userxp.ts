@@ -8,7 +8,7 @@ import * as _ from 'lodash';
  */
 
 let toPatch = require('../../logs/tundra-userxp-log.json');
-let restore = require('../uploads/tundra-restore-userxp.json');
+let restore = require('../inputData/tundra-restore-userxp.json');
 const restoreDictionary = _.keyBy(restore, row => row.UserID);
 
 async function run() {

@@ -6,7 +6,7 @@ import * as helpers from '../../helpers';
  * clears out any payment methods for the users
  */
 
-const toPatch = require('../uploads/tundra-clear-payment-methods.json');
+const toPatch = require('../inputData/tundra-clear-payment-methods.json');
 
 interface DfsAssignmentRequest {
   BuyerID: string;

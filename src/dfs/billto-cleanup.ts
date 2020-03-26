@@ -2,8 +2,8 @@ import config from '../../integration-users.config';
 import * as helpers from '../../helpers';
 
 /**
- *  Assign addresses to usergroup with IsShipping true
- *  Need this for BillToShip to and don't want to run full upload to do it
+ *  Clean up data now that BillTo feature is complete
+ *  https://four51.atlassian.net/browse/DFS-241
  */
 
 const toAssign = require('../inputData/caferio-isshipping.json');
