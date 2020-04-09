@@ -1,6 +1,5 @@
 import config from '../../integration-users.config';
 import * as helpers from '../../helpers';
-import * as rows from '../../inputdata/project-edmund-pricing-groups.json';
 
 /**
  *  Jira Issue: https://four51.atlassian.net/browse/AV-504
@@ -12,16 +11,20 @@ import * as rows from '../../inputdata/project-edmund-pricing-groups.json';
  */
 
 (async function run() {
-  const environment = 'test';
+  const environment = 'prod';
   const creds = config[environment].aveda;
-  const buyerID = environment === 'test' ? 'avedatest' : 'aveda';
+  const buyerID = environment === ('test' as string) ? 'avedatest' : 'aveda';
   const sdk = await helpers.ocClient(creds.clientID, creds.clientSecret);
 
+  const sheets = await helpers.xcelToJson(
+    'Customer List 2035 for 1120 on April 9th.xlsx'
+  );
+  const rows = sheets[0]; // first sheet
   const total = rows.length;
   let progress = 0;
   const errors = {};
   await helpers.batchOperations(
-    rows as any,
+    rows,
     async function singleOperation(row: {
       Customer: string; // ex: 100042
       'Prod Catalog': string; // ex: C2B1011010
@@ -54,7 +57,15 @@ import * as rows from '../../inputdata/project-edmund-pricing-groups.json';
 
         console.log(`${progress} of ${total} admin users assigned`);
       } catch (e) {
-        errors[row.Customer] = e;
+        const errorID = row.Customer;
+        if (e.isOrderCloudError) {
+          errors[errorID] = {
+            Message: e.message,
+            Errors: e.errors,
+          };
+        } else {
+          errors[errorID] = { Message: e.message };
+        }
       }
     },
     100 // requests that runin parallel
