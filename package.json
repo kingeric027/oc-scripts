@@ -14,7 +14,7 @@
     "@azure/cosmos": "^3.5.3",
     "axios": "^0.19.2",
     "csvtojson": "^2.0.10",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "ordercloud-javascript-sdk": "^4.0.0-9",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
