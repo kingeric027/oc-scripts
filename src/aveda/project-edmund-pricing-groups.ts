@@ -2,22 +2,22 @@ import config from '../../integration-users.config';
 import * as helpers from '../../helpers';
 
 /**
- *  Jira Issue: https://four51.atlassian.net/browse/AV-644
+ *  Jira Issue: https://four51.atlassian.net/browse/AV-504
  *
  *  Tasks:
- *  - Patch Product with the following fields
- *      - FrenchProductName
- *      - FrenchDescription
- *      - FrenchSize
+ *  List UserGroupAssignments for user where userID == "SoldTo-0000" + column "Customer"
+ *  Delete all assignments except the one where UserID matches UserGroupID
+ *  Create assignment between UserID and UserGroupID in column "Prod Catalog"
  */
+
 (async function run() {
-  const environment = 'test';
+  const environment = 'prod';
   const creds = config[environment].aveda;
   const buyerID = environment === ('test' as string) ? 'avedatest' : 'aveda';
   const sdk = await helpers.ocClient(creds.clientID, creds.clientSecret);
 
   const sheets = await helpers.xcelToJson(
-    'AwesomeFrenchProducts.xls' // TODO: add the name of the xcel sheet once we know it
+    'Customer List 2035 for 1120 on April 9th.xlsx'
   );
   const rows = sheets[0]; // first sheet
   const total = rows.length;
@@ -26,26 +26,38 @@ import * as helpers from '../../helpers';
   await helpers.batchOperations(
     rows,
     async function singleOperation(row: {
-      // TODO: update column names once we know them
-      'ProductID': string;
-      'FrenchProductName': string;
-      'FrenchDescription': string;
-      'FrenchSize': string;
+      Customer: string; // ex: 100042
+      'Prod Catalog': string; // ex: C2B1011010
     }) {
       try {
         progress++;
-        const patch = {
-          xp: {
-            FrenchProductName: row.FrenchProductName,
-            FrenchSize: row.FrenchSize,
-            FrenchDescription: row.FrenchDescription
+        const userID = `SoldTo-0000${row.Customer}`;
+        const assignmentsList = await sdk.UserGroups.ListUserAssignments(
+          buyerID,
+          {
+            userID,
           }
-        }
-        await sdk.Products.Patch(row.ProductID, patch);
+        );
+        const queue = assignmentsList.Items.filter(assignment => {
+          // don't delete assignment where userID matches usergroup id
+          return assignment.UserGroupID !== userID;
+        }).map(assignment => {
+          return sdk.UserGroups.DeleteUserAssignment(
+            buyerID,
+            assignment.UserGroupID,
+            assignment.UserID
+          );
+        });
+        await Promise.all(queue);
 
-        console.log(`${progress} of ${total} products updated updated`);
+        await sdk.UserGroups.SaveUserAssignment(buyerID, {
+          UserGroupID: row['Prod Catalog'],
+          UserID: userID,
+        });
+
+        console.log(`${progress} of ${total} admin users assigned`);
       } catch (e) {
-        const errorID = row.ProductID;
+        const errorID = row.Customer;
         if (e.isOrderCloudError) {
           errors[errorID] = {
             Message: e.message,
@@ -56,7 +68,7 @@ import * as helpers from '../../helpers';
         }
       }
     },
-    100 // requests that run in parallel
+    100 // requests that runin parallel
   );
-  helpers.log(errors, 'french-products_AV-694');
+  helpers.log(errors, 'project-edmund-pricing-groups');
 })();
