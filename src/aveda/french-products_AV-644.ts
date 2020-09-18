@@ -6,18 +6,17 @@ import * as helpers from '../../helpers';
  *
  *  Tasks:
  *  - Patch Product with the following fields
- *      - FrenchProductName
+ *      - FrenchName
  *      - FrenchDescription
  *      - FrenchSize
  */
 (async function run() {
     const environment = 'test';
     const creds = config[environment].aveda;
-    const buyerID = environment === ('test' as string) ? 'avedatest' : 'aveda';
     const sdk = await helpers.ocClient(creds.clientID, creds.clientSecret);
 
     const sheets = await helpers.xcelToJson(
-        'AwesomeFrenchProducts.xls' // TODO: add the name of the xcel sheet once we know it
+        'Four51 List.xls'
     );
     const rows = sheets[0]; // first sheet
     const total = rows.length;
@@ -27,25 +26,25 @@ import * as helpers from '../../helpers';
         rows,
         async function singleOperation(row: {
             // TODO: update column names once we know them
-            'ProductID': string;
-            'FrenchProductName': string;
-            'FrenchDescription': string;
-            'FrenchSize': string;
+            'Part Number': string; // productid
+            'French Canadian Product Name': string;
+            // 'FrenchDescription': string;
+            // 'FrenchSize': string;
         }) {
             try {
                 progress++;
                 const patch = {
                     xp: {
-                        FrenchProductName: row.FrenchProductName,
-                        FrenchSize: row.FrenchSize,
-                        FrenchDescription: row.FrenchDescription
+                        FrenchName: row['French Canadian Product Name'],
+                        // FrenchSize: row.FrenchSize,
+                        // FrenchDescription: row.FrenchDescription
                     }
                 }
-                await sdk.Products.Patch(row.ProductID, patch);
+                await sdk.Products.Patch(row['Part Number'], patch);
 
                 console.log(`${progress} of ${total} products updated updated`);
             } catch (e) {
-                const errorID = row.ProductID;
+                const errorID = row['Part Number'];
                 if (e.isOrderCloudError) {
                     errors[errorID] = {
                         Message: e.message,
