@@ -1,0 +1,27 @@
+const permissionsInfo = {
+  SalesOrganization: '2035',
+  UserTypePrefix: 'SalonAdmin-*',
+  Permissions: {
+    'Permissions-Order-Basic': true,
+    'Permissions-Order-ClientDislike': true,
+    'Permissions-Order-Launch': false,
+    'Permissions-Order-SpecialProgram': false,
+    'Permissions-Order-Replenishment': false,
+    'Permissions-Order-CostCenter': false,
+    'Permissions-Order-CustomizedMarketing': true,
+    'Permissions-Order-MultipleOneFreight': false,
+    'Permissions-Order-CreditMemo': false,
+    'Permissions-Order-DebitMemo': false,
+    'Permissions-Order-Return': false,
+    'Permissions-Order-NonProduct': false,
+    'Permissions-Order-FSS': false,
+    'Permissions-Ability-SaveCreditCardPersonal': true,
+    'Permissions-Ability-ManageUsersBuyer': true,
+    'Permissions-Ability-ManageSaveCardSalon': true,
+    'Permissions-Ability-ViewAllOrderAtLocation': true,
+    'Permissions-Ability-SendNotificationToOthers': false,
+    'Permissions-Ability-ReportingAccess': false,
+    'Permissions-Ability-PurchaseWithPurePoints': true,
+  },
+};
+export default permissionsInfo;
