@@ -2,7 +2,9 @@ import config from '../../integration-users.config';
 import * as helpers from '../../helpers';
 
 /**
- *  Jira Issue: https://four51.atlassian.net/browse/AV-644
+ *  Jira Issues: 
+ *  https://four51.atlassian.net/browse/AV-644
+ *  https://four51.atlassian.net/browse/AV-684
  *
  *  Tasks:
  *  - Patch Product with the following fields
@@ -11,12 +13,12 @@ import * as helpers from '../../helpers';
  *      - FrenchSize
  */
 (async function run() {
-    const environment = 'test';
+    const environment = 'prod';
     const creds = config[environment].aveda;
-    const sdk = await helpers.ocClient(creds.clientID, creds.clientSecret);
+    const sdk = await helpers.ocClient(creds.clientID, creds.clientSecret, 'Production');
 
     const sheets = await helpers.xcelToJson(
-        'Four51 List.xls'
+        'Aveda Final French Product Names.xlsx'
     );
     const rows = sheets[0]; // first sheet
     const total = rows.length;
@@ -26,18 +28,18 @@ import * as helpers from '../../helpers';
         rows,
         async function singleOperation(row: {
             // TODO: update column names once we know them
-            'Part Number': string; // productid
-            'French Canadian Product Name': string;
-            // 'FrenchDescription': string;
+            'Part Number': string; // ProductID
+            // 'French Canadian Product Name': string;
+            'Description ': string;
             // 'FrenchSize': string;
         }) {
             try {
                 progress++;
                 const patch = {
                     xp: {
-                        FrenchName: row['French Canadian Product Name'],
+                        FrenchName: row['Description '],
                         // FrenchSize: row.FrenchSize,
-                        // FrenchDescription: row.FrenchDescription
+                        // FrenchDescription: row.Description
                     }
                 }
                 await sdk.Products.Patch(row['Part Number'], patch);
@@ -57,5 +59,5 @@ import * as helpers from '../../helpers';
         },
         100 // requests that run in parallel
     );
-    helpers.log(errors, 'french-products_AV-694');
+    helpers.log(errors, 'french-products_AV-644');
 })();

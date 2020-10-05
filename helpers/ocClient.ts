@@ -7,32 +7,31 @@ export enum OcEnv {
 export async function ocClient(
   clientID: string,
   clientSecret: string,
-  OcEnv?: string
+  OcEnv: 'Sandbox' | 'Staging' | 'Production'
 ): Promise<typeof OrderCloudSDK> {
   let environment;
   switch (OcEnv) {
     case 'Sandbox':
       environment = {
-        baseApiUrl: 'https://sandboxapi.ordercloud.io/v1',
-        baseAuthUrl: 'https://sandboxapi.ordercloud.io/oauth/token',
+        baseApiUrl: 'https://sandboxapi.ordercloud.io',
         timeoutInMilliseconds: 60 * 1000,
       };
+      break;
     case 'Staging':
       environment = {
-        baseApiUrl: 'https://stagingapi.ordercloud.io/v1',
-        baseAuthUrl: 'https://stagingapi.ordercloud.io/oauth/token',
+        baseApiUrl: 'https://stagingapi.ordercloud.io',
         timeoutInMilliseconds: 60 * 1000,
       };
+      break;
     case 'Production':
       environment = {
-        baseApiUrl: 'https://api.ordercloud.io/v1',
-        baseAuthUrl: 'https://api.ordercloud.io/oauth/token',
+        baseApiUrl: 'https://api.ordercloud.io',
         timeoutInMilliseconds: 60 * 1000,
       };
+      break;
     default:
       environment = {
-        baseApiUrl: 'https://sandboxapi.ordercloud.io/v1',
-        baseAuthUrl: 'https://sandboxapi.ordercloud.io/oauth/token',
+        baseApiUrl: 'https://sandboxapi.ordercloud.io',
         timeoutInMilliseconds: 60 * 1000,
       };
   }
@@ -48,4 +47,5 @@ export async function ocClient(
     OrderCloudSDK.Tokens.SetAccessToken(token);
   }
   return OrderCloudSDK;
+
 }
