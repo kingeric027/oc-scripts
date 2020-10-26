@@ -27,7 +27,6 @@ async function run() {
 
     async function authAsSupplier(supplierID: string): Promise<string> {
         var supplierToken = supplierTokens[supplierID];
-        console.log(supplierToken);
         if (supplierToken) {
             return supplierToken;
         } else {
